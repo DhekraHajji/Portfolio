@@ -1,0 +1,138 @@
+section {
+    background: #f2f2f2;
+    min-height: 100vh;
+    display: block;
+}
+
+.main-content{
+    padding-left: 270px;
+}
+
+.sidebar{
+width: 270px;
+position: fixed;
+height: 100%;
+left: 0;
+top: 0;
+z-index: 10;
+border-right: 1px solid gray;
+}
+.sidebar .logo {
+    padding: 30px 0;
+}
+.sidebar .logo a{
+    font-size: 40px;
+    color: #302e4d;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    margin-left: 50px;
+}
+
+.sidebar .logo::before{
+    content:"";
+    background: lightseagreen;
+    display: block;
+    height: 3px;
+    width: 155px;
+    margin-left: 50px;
+    
+}
+.sidebar .logo::after{
+    content:"";
+    background: lightseagreen;
+    display: block;
+    height: 3px;
+    width: 155px;
+    margin-left: 50px;
+}
+.sidebar .nav {
+    list-style: none;
+    margin: 80px 0px;
+    
+}
+.sidebar .nav li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    line-height: 45px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    transition: all 04 ease;
+    width: 180px;
+}
+
+.sidebar .nav li a:hover {
+
+padding-left: 5px;
+color: lightseagreen;
+}
+
+.sidebar .nav li a .fa {
+
+    margin-right: 8px;
+}
+.profile {
+    box-shadow: 0 0 20px rgb(48, 46, 77,0.15);
+    width: 30%;
+    height: 20%;
+   
+}
+.home-section{
+    min-height: 100vh;
+    
+}
+
+.home-section .intro img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    border-left: 10px solid lightseagreen;
+    border-top: 10px solid lightseagreen;
+    border-right: 2px solid lightseagreen;
+
+
+}
+.home-section .intro img:hover {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: inline-block;
+    border-left: 0px solid lightseagreen;
+    border-top: 0px solid lightseagreen;
+    border-right: 0px solid lightseagreen;
+    transition: all 0.3s ease;
+
+
+}
+.home-section .intro{
+    text-align: center;
+     padding-top: 20%;}
+.home-section .intro h1 {
+    font-size: 30px;
+    color: #302e4d;
+    font-weight: 700;
+
+    margin: 20px 0 5px;
+}
+.home-section .intro p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 22px;
+    color: #504e70;
+}
+.home-section .intro .media a {
+    height: 35px;
+    width: 35px;
+    display:inline-block;
+    text-align: center;
+    line-height: 35px;
+ border-radius: 50px;
+
+    text-decoration: none;
+    background-color: lightseagreen;
+
+}
